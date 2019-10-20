@@ -1,0 +1,10 @@
+service:
+  name: rpg_character_generator
+
+provider:
+  name: aws
+
+functions:
+  generateCharacter:
+    handler: src/index.handler
+    runtime: nodejs10.x
