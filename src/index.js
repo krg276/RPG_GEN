@@ -5,7 +5,7 @@
  */
 const validateEvent = (event) => {
     console.log('Validating event...')
-
+    console.log(event);
     console.log('Event validated!')
     // Dummy function for design
     return{}

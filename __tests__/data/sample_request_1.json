@@ -1,3 +1,9 @@
-{
-    "body": "{}"
+{ 
+    "method": "GET",
+    "body": { },
+    "query": {
+        "race": "ELF"
+    },
+    "path": { },
+    "requestPath": "/v1/generate/character"
 }

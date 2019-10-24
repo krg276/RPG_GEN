@@ -1,5 +1,5 @@
 service:
-  name: rpg_character_generator
+  name: rpg-character-generator
 
 provider:
   name: aws
@@ -8,3 +8,9 @@ functions:
   generateCharacter:
     handler: src/index.handler
     runtime: nodejs10.x
+    events:
+      - http:
+          path: v1/generate/character
+          method: GET
+          integration: lambda
+          cors: true
