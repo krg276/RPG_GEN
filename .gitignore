@@ -3,3 +3,9 @@ node_modules
 
 //Ignore vs code config
 .vscode
+
+//Ignore generated serverless files
+.serverless
+
+//Ignore idea project files
+.idea
